@@ -1,0 +1,159 @@
+body{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/*---------------padding and margin styles*/
+.plr-0{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.plr-100{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.pt-50{
+	padding-top: 50px;
+}
+.pb-50{
+	padding-bottom: 50px;
+}
+.pt-55{
+	padding-top: 55px;
+}
+.pb-40{
+	padding-bottom: 40px;
+}
+.mt-30{
+	margin-top: 30px;
+}
+.text-green{
+	color: #65b174;
+}
+.text-blue{
+	color: #0e648e;
+}
+.text-white{
+	color: #ffffff;
+}
+.carousel .img-responsive{
+	width: 100%;
+	height: 500px!important;
+}
+.carousel-control.left{
+	background-image: none;
+}
+.carousel-control.right{
+	background-image: none;
+}
+/* -----------------------------------------------------------------------------top bar css */
+.top-bar{
+	padding-top: 10px;
+	color: #ffffff;
+	background: #67B26F;
+	background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);
+	background: linear-gradient(to right, #4ca2cd, #67B26F);
+
+}
+
+/*------------------------------------------------------------------------------- navbar css */
+.custom-navbar{
+	background-color: #ffffff;
+	border: none;
+	margin-bottom: 0px;
+	padding: 25px;
+}
+.custom-navbar .navbar-nav li a{
+	color: #65b174;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.navbar-brand img{
+	width: 38%;
+	margin-top: -31px;
+}
+
+/*------------------------------------------------------------------------------- about css */
+.about-section-n p{
+	font-size: 17px;
+}
+
+/* service section css */
+.service-section-n{
+	background: #FFEEEE;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.serviceBox{ text-align: center; }
+.serviceBox .service-icon{
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    line-height: 130px;
+    border-radius: 50%;
+    background: #5fad8d;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 50px;
+    position: relative;
+}
+.serviceBox .service-icon:before{
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    right: 20px;
+    border: 5px solid #fff;
+    border-right-color: transparent;
+    border-radius: 50%;
+    transition: all 0.3s ease 0s;
+}
+.serviceBox:hover .service-icon:before{ transform: rotate(180deg); }
+.serviceBox .service-icon:after{
+    content: "";
+    width: 2px;
+    height: 30px;
+    background: #f03089;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+}
+.serviceBox .title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #072458;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.serviceBox .description{
+    font-size: 15px;
+    color: #6f6f6f;
+    line-height: 27px;
+    letter-spacing: 1px;
+    margin: 10px 0 0 0;
+}
+.serviceBox.green .service-icon,
+.serviceBox.green .service-icon:after{ background: #4ea3c9; }
+.serviceBox.blue .service-icon,
+.serviceBox.blue .service-icon:after{ background: #1a9fab; }
+@media only screen and (max-width:990px){
+    .serviceBox{ margin-bottom: 30px; }
+}
+
+.banner-head-n{
+	/* background-image: url('../myimages/name.jpg'); */
+	background-image: url('http://www.ardosiaslate.co.uk/sites/default/files/gallery/Modern_kitchen_slate_worktop_with_range_cooker.jpg');
+	background-size: cover;
+	padding: 100px;
+}
+
+footer{
+	background-color: black;
+	padding-top: 20px;
+	color: #ffffff;
+}
